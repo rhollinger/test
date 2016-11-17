@@ -1,0 +1,530 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+.clearfix {
+  clear: both;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background: #000;
+}
+
+/* Header */
+header {
+  background-image: url("../image/strech.jpg");
+  background-size: cover;
+}
+
+.logo {
+  float: none;
+  font-weight: bold;
+  background: #000;
+  width: 300px;
+  height: 80px;
+  margin: auto;
+  -webkit-transform: skew(40deg);
+      -ms-transform: skew(40deg);
+          transform: skew(40deg);
+}
+
+.brand {
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+  display: block;
+  -webkit-transform: skew(-40deg);
+      -ms-transform: skew(-40deg);
+          transform: skew(-40deg);
+  margin-bottom: 20px;
+  margin: inherit;
+}
+
+.brand span {
+  color: #A6020A;
+}
+
+.navbar {
+  z-index: 444;
+}
+/* line 43, ../sass/screen.scss */
+.navbar ul {
+  padding: 0;
+  text-align: center;
+  background: #000;
+  opacity: .8;
+  filter: alpha(opacity=80);
+}
+.navbar ul li {
+  list-style: none;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 20px;
+}
+.navbar ul li:first-letter {
+  text-transform: uppercase;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar ul li a:hover {
+  color: #A6020A;
+}
+.navbar ul li a.active {
+  color: #A6020A;
+  border-bottom: 2px solid #A6020A;
+  padding-bottom: 20px;
+}
+
+.main {
+  width: 40em;
+  position: absolute;
+  margin: auto;
+}
+.main h1 {
+  color: #FFF;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 3em;
+  border-bottom: 4px solid #A6020A;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.main h4 {
+  color: #A6020A;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.background {
+  background-color: rgba(37, 37, 37, 0.5);
+}
+
+/* end Header */
+/* about me */
+.heading {
+  text-transform: uppercase;
+  border-bottom: 4px solid #A6020A;
+  display: inline-block;
+  margin: 100px 0 40px 0;
+  padding-bottom: 10px;
+}
+
+.ph p:first-child {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.features div {
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+}
+.features h3 {
+  padding: 15px;
+}
+.features p {
+  padding-bottom: 15px;
+}
+
+/* Button */
+.btn {
+  font-family: "Archivo Narrow", sans-serif;
+  background: none;
+  border: 4px solid #000;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px;
+  min-width: 200px;
+  margin-top: 10%;
+  -webkit-transition: all ease-in .2s;
+          transition: all ease-in .2s;
+}
+.btn a {
+  text-decoration: none;
+  color: #000;
+}
+.btn a:hover {
+  color: #FFF;
+}
+.btn:hover {
+  background: #000;
+}
+
+/* end about me */
+/* start counter */
+.counter {
+  margin-top: 100px;
+  background: #000;
+  color: #A6020A;
+  font-family: "Archivo Narrow", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  height: 50%;
+}
+.counter span {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.counter .c {
+  padding: 110px 0;
+}
+
+/* end counter*/
+/* start services */
+.ser {
+  background: #A6020A;
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+  border: 5px solid #FFF;
+  padding: 30px;
+  -webkit-transition: all ease-in-out .5s;
+          transition: all ease-in-out .5s;
+}
+.ser:hover {
+  background: #FFF;
+  border: 5px solid #000;
+}
+.ser h3 {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+/* end services */
+/* start work */
+.item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+.item:hover .over {
+  display: block;
+}
+.item .over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 6px solid #A6020A;
+  text-align: center;
+  display: none;
+  margin: auto;
+}
+.item .over .show-p {
+  outline: none;
+  border: 4px solid #A6020A;
+  background: #A6020A;
+  color: #000;
+  padding: 10px;
+  min-width: 200px;
+  margin-top: 10%;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in .2s;
+          transition: all ease-in .2s;
+}
+.item .over .show-p:hover {
+  text-decoration: underline;
+}
+
+.show-all-project {
+  text-align: center;
+}
+
+.workbtn {
+  margin: 20px;
+  text-transform: uppercase;
+  color: #000;
+}
+.workbtn:hover {
+  color: #FFF;
+}
+
+.hidden {
+  display: none;
+}
+
+/*   End work */
+/* start team */
+.team {
+  background: #000;
+  height: 100%;
+}
+
+.person {
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+  color: #A6020A;
+  margin: 5px 0;
+}
+.person:hover .social-person {
+  visibility: visible;
+}
+.person h5 {
+  padding: 10px;
+}
+.person i {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.social-person {
+  visibility: hidden;
+}
+
+/* end team */
+/* start our blog*/
+article .circle {
+  background: #A6020A;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 3em;
+  border-radius: 50%;
+  display: block;
+}
+article .blog {
+  margin: 10px 0;
+}
+article .blog h5 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 2.5em;
+}
+article .blog span {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 15px;
+}
+article .blog a {
+  text-decoration: none;
+  color: #000;
+  padding: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+article .blog a:hover {
+  color: #A6020A;
+}
+article .blog .icon {
+  float: right;
+}
+
+.vab {
+  display: block;
+  margin: 50px auto;
+  text-transform: uppercase;
+}
+
+/* end our blog */
+/* start contact us */
+.contact {
+  background: #000;
+}
+.contact span {
+  color: #A6020A;
+  font-size: 1.5em;
+  text-align: center;
+}
+.contact span i {
+  padding: 15px;
+}
+
+form input {
+  display: block;
+  margin: 50px auto;
+  width: 550px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #A6020A;
+  padding: 10px;
+  outline: none;
+  color: #A6020A;
+  font-family: "Archivo Narrow", sans-serif;
+  max-width: 100%;
+}
+form input::-webkit-input-placeholder {
+  color: #A6020A;
+}
+form input::-moz-placeholder {
+  color: #A6020A;
+}
+form input:-ms-input-placeholder {
+  color: #A6020A;
+}
+form input::placeholder {
+  color: #A6020A;
+}
+form input:focus {
+  border: 1px dashed #A6020A;
+}
+form textarea {
+  display: block;
+  margin: auto;
+  width: 550px;
+  height: 150px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #A6020A;
+  outline: none;
+  color: #A6020A;
+  font-family: "Archivo Narrow", sans-serif;
+  max-width: 100%;
+}
+form textarea:focus {
+  border: 1px dashed #A6020A;
+}
+
+.submit {
+  text-transform: uppercase;
+  color: #FFF;
+  background: none;
+  font-family: "Archivo Narrow", sans-serif;
+  border: 4px solid #dedede;
+  font-weight: bold;
+  padding: 10px;
+  min-width: 200px;
+  font-size: 1.5em;
+  display: block;
+  margin: 40px auto;
+  -webkit-transition: all ease-out .3s;
+          transition: all ease-out .3s;
+}
+.submit:hover {
+  border: 4px solid #A6020A;
+  background: #A6020A;
+  color: #000;
+}
+
+*::-webkit-input-placeholder {
+  color: #A6020A;
+}
+
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: #A6020A;
+}
+
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: #A6020A;
+}
+
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #A6020A;
+}
+
+/* end contact us */
+/* start footer */
+.social-footer {
+  padding: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+.social-footer i {
+  padding: 15px;
+}
+.social-footer a {
+  color: #000;
+}
+.social-footer a:hover {
+  color: #A6020A;
+}
+
+footer {
+  background: #000;
+}
+footer span {
+  font-family: "Archivo Narrow", sans-serif;
+  color: #FFF;
+}
+footer span a {
+  text-decoration: none;
+  color: #A6020A;
+}
+
+span ul {
+  float: right;
+}
+span ul li {
+  float: left;
+  padding: 15px;
+  list-style: none;
+}
+
+footer .copyright {
+  padding: 24px;
+}
+
+/* end footer*/
+/* Mobile */
+@media only screen and (max-width: 768px) and (min-device-width: 1024px) {
+  .hum {
+    display: block;
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .hum:hover {
+    color: #A6020A;
+  }
+
+  .navbar .menu li {
+    display: block;
+  }
+
+  .main {
+    display: none;
+  }
+
+  .heading {
+    display: block;
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    margin: 15px auto;
+  }
+
+  .item .over .show-p {
+    min-width: 100%;
+  }
+
+  article .blog h5 {
+    text-align: center;
+  }
+
+  article .grid-d-1 {
+    display: none;
+  }
+
+  footer .copyright {
+    text-align: center;
+  }
+  footer .n {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (min-device-width: 1024px) {
+  .hum {
+    display: none;
+  }
+}

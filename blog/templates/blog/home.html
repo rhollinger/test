@@ -1,0 +1,198 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="compass/stylesheets/screen.css" rel="stylesheet" />-->
+        <title>#TriTechElite</title>
+		<link href="{% static 'blog/css/rwdgrid.min.css' %}" media="all" rel="stylesheet"/>
+		<link href="{% static 'blog/css/normalize.css' %}" media="all" rel="stylesheet"/>
+		<link href="{% static 'blog/css/font-awesome.min.css' %}" media="all" rel="stylesheet"/>
+		<link href="{% static 'blog/css/animate.min.css' %}" media="all" rel="stylesheet"/>
+		<link href="{% static 'blog/css/style.css' %}" media="all" rel="stylesheet"/>
+        <!-- ACAN Template Free HTML/CSS PSD :D by Abid Soufiane www.behance.com/kingsol -->
+    </head>
+    <body>
+        <!-- Star header -->
+        <header id="home">
+            <div class="background">
+            <div class="container">
+            <div class="logo grid-d-3">
+                <h1 class="brand"><span>#</span>TriTechElite</h1>
+            </div>
+            <i class="fa fa-bars hum"></i>
+            <nav class="navbar grid-d-12 grid-m-12">
+                <ul class="menu">
+                    <li><a href="#home" class="active" data-scroll>home</a></li>
+                    <li><a href="#about--us" data-scroll>about</a></li>
+                    <li><a href="#our--team" data-scroll>team</a></li>
+                    <li><a href="#our--results" data-scroll>results</a></li>
+                    <li><a href="#our--events" data-scroll>events</a></li>
+                    <li><a href="#contact--us" data-scroll>contact</a></li>
+                </ul>
+            </nav>
+            <section class="main">
+                <h1>Engineered Performance</h1>
+                <!--<h4>Subtitle.</h4> -->
+            </section>
+            </div>
+            </div>
+        </header>
+        <!-- End header -->
+        <!-- start about me -->
+        <section id="about--us">
+            <div class="container">
+            <h1 class="heading">about us</h1>
+            <div class="clearfix"></div>
+            <div class="ph grid-d-5">
+                <p>#TriTechElite is a team of post-collegiate emerging triathletes training and racing throughout New England.  </p>
+                <p>The squad was formed in 2011 as a training group for multisport athletes studying at Worcester Polytechnic Institute. What started as a Twitter hashtag quickly caught momentum and a team was born. The team saw quick growth collecting athletes from the Varsity Track, Cross Country, Cycling, and Swimming programs to share the multisport passion.</p>
+                </br>
+                <p>Currently the team is composed of over 10 full-time engineers. The team takes pride in the careful balance of professional careers and multi-sport training. Still #TriTechElite has found great success, racing to the top of the New England circuit and achieving numerous All-American distinctions on the national stage. </p>
+            </div>
+        </section>
+        <!-- start our team -->
+        <section id="our--team">
+            <div class="container">
+            	<h1 class=heading>our team</h1>
+            </div>
+            <section class="team">
+            <div class="container">
+             	{% for athlete in athletes %}
+		            <div class="person grid-d-3">
+		                <img src='/static/blog/image/team/{{athlete.first_name}}.png' height="250"/>
+		                <h5>{{athlete.first_name}} {{athlete.last_name}}</h5>
+		                <div class="social-person">
+							Age: 23
+		                </div>
+		                <div class="social-person">
+							Favorite Race: Mass State
+		                </div>
+		                <div class="social-person">
+							Best Performance: #WINNING 
+		                </div>
+		            </div>
+				{% endfor %}
+            </div>
+        </section>
+        <!-- end our team -->
+        <!-- start our results -->
+        <section id="our--results">
+            <div class="container">
+            <h1 class="heading">results</h1>
+			{% for race in races %}
+	            <article>
+	                <div class="grid-d-1">
+						{% if forloop.counter < 10 %}
+	                		<span class="circle">0{{forloop.counter}}</span>
+						{% else %}
+							<span class="circle">{{forloop.counter}}</span>
+						{% endif %}
+	                </div>
+	                <div class="blog grid-d-6 grid-m-12">
+	                    <a href="#"><h5>{{race.title}}</h5></a>
+	                    <span>{{race.date}} | RACED BY: {{race.athletes}}</span>
+	                    <div class="icon">
+	                    <a class="likes" href="#"><i class="fa fa-heart-o"></i> likes </a>
+	                    <a class="share" href="#" > <i class="fa fa-share-alt"></i> share</a>
+	                    <a class="comment" href="#" > <i class="fa fa-comment"></i> comment(s)</a>
+	                    </div>
+	                    <div class="clearfix"></div>
+	                </div>
+	                <div class="blog--img grid-d-5">
+					<img src="{% static 'blog/image/results/pumpkinman-15.png'%}" class="responsive"/>
+	                </div>
+	            </article>
+			{% endfor %}
+        </section>
+        <!-- end our results -->
+        <!-- start latest work -->
+        <section id="our--events">
+            <div class="container">
+            <h1 class="heading">latest events</h1>
+            <div>
+				{% for event in events %}
+	                <div class="item grid-d-3 grid-m-6">
+	                    <div class="over">
+	                        <button class="show-p">{{event.title}}</button>
+	                    </div>
+		                <img src="{% static 'blog/image/events/spring-16.png'%}" class="responsive"/>
+	                </div>
+				{% endfor %}
+                <div class="show-all-project"><button class="btn workbtn">all events</button></div>
+                <div class="clearfix"></div>
+            </div>
+            </div>
+        </section>
+        <!-- end events -->
+        <!-- start contact us -->
+        <section id="contact--us">
+                <div class="container">
+                <h1 class="heading">contact us</h1>
+                </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <form class="grid-d-12">
+                <input type="text" placeholder="YOUR NAME" >
+                <input type="email" placeholder="YOUR EMAIL" >
+                <textarea name="msg" placeholder="YOUR MESSAGE"></textarea>
+                </form>
+                <div class="clearfix"></div>
+                <button class="submit">submit</button>
+            <span class="grid-d-6">
+                    <i class="fa fa-phone"></i>
+                    (123) 456-7890
+            </span>
+            <span class="grid-d-6">
+                <i class="fa fa-envelope-o"></i>
+                tri@tech.elite
+            </span>
+            </div>
+        </section>
+        <!-- end contact us  -->
+        
+        <!-- start Social footer -->
+        <section class="social-footer">
+            <div class="container">
+            <a href="#"><i class="fa fa-facebook fa-3x wow fadeInDownBig"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-3x wow fadeInUpBig"></i></a>
+            <!--<a href="#"><i class="fa fa-pinterest fa-3x wow fadeInDownBig"></i></a>
+            <a href="#"><i class="fa fa-linkedin fa-3x wow fadeInUpBig"></i></a>-->
+            <a href="#"><i class="fa fa-youtube fa-3x wow fadeInDownBig"></i></a>
+            <!--<a href="#"><i class="fa fa-google-plus fa-3x wow fadeInUpBig"></i></a>-->
+            </div>
+        </section>
+        <!-- end Social footer -->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+              
+            <div class="grid-d-6 copyright">    
+            <span>
+                #TriTechElite
+            </span>
+            </div>
+            <!--<span class="grid-d-6 n">
+                <ul>
+                    <li><a href="#">terms</a></li>
+                    <li><a href="#">sitemap</a></li>
+                    <li><a href="#">privacy</a></li>
+                </ul>
+            </span>-->
+            <div class="clearfix"></div>
+            </div>
+        </footer>
+        <!-- Footer -->
+        <!-- SCRIPTS -->
+		<script src="{% static 'blog/js/jquery.min.js' %}"></script>
+		<script src="{% static 'blog/js/jquery.countTo.js' %}"></script>
+		<script src="{% static 'blog/js/wow.min.js' %}"></script>
+		<script src="{% static 'blog/js/scroll2.js' %}"></script>
+		<script src="{% static 'blog/js/jquery.nicescroll.min.js' %}"></script>
+		<script src="{% static 'blog/js/index.js' %}"></script>
+    </body>
+</html>
