@@ -1,0 +1,1 @@
+web: gunicorn tte.wsgi --log-file -
