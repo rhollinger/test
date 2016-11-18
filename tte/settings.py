@@ -25,7 +25,7 @@ SECRET_KEY = '&+y(n#%vhramyo$5cp*lvv74ex)xtr6x+j!x=iym8cz@2ni#t1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -74,12 +74,18 @@ WSGI_APPLICATION = 'tte.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# Update database configuration with $DATABASE_URL.
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
@@ -118,6 +124,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+#STATIC_URL = '/static/'
+
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_ROOT, 'static'),
+)
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
