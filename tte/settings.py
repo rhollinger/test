@@ -25,7 +25,11 @@ SECRET_KEY = '&+y(n#%vhramyo$5cp*lvv74ex)xtr6x+j!x=iym8cz@2ni#t1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = 
+[
+    '0.0.0.0',
+    'whispering-earth-48343.herokuapp.com',
+]
 
 
 # Application definition
