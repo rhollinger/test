@@ -69,7 +69,7 @@
             <div class="container">
              	{% for athlete in athletes %}
 		            <div class="person grid-d-3 grid-m-6">
-		                <img src='/static/blog/image/team/{{athlete.first_name}}.png' height="250"/>
+		                <img src='/static/blog/image/team/{{athlete.first_name | lower}}.png' height="250"/>
 		                <h5>{{athlete.first_name}} {{athlete.last_name}}</h5>
 		                <div class="social-person">
 							<b>Stomping Grounds:</b> {{athlete.location}}
