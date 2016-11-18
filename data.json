@@ -1,0 +1,1435 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "athlete"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "event"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "race"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1xtqi6v4uk5vufgdf4gt6s3qmfqyed0p",
+  "fields": {
+    "session_data": "ZDZlNzkwNjczNjRjZTNiM2I1ZDgzODZkZjA4ZGZhOTZiMDhiMWIyNTp7Il9hdXRoX3VzZXJfaGFzaCI6IjNkZGQyZDI1OThhOGY3NGJkMmJmYmM4NzY3MGI3M2M5ZmE0Y2M5NGYiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-11-30T03:02:16.176Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6kv4f60nk9a5dvy7kfby1wj2kbqqleo4",
+  "fields": {
+    "session_data": "Y2ExNTMyNGM0ZmE2MDBlMmJmZTMwOGMxNWQxNTQ5ZWI3NDgxYjAxZDp7Il9hdXRoX3VzZXJfaGFzaCI6ImRlNGE5M2EzZWQxYWZkMDRmMmNjNWY4ZmIzYTgxN2MzMGY5YTBkNGMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-12-02T14:36:43.421Z"
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 1,
+  "fields": {
+    "first_name": "Robert",
+    "last_name": "Hollinger",
+    "dob": "1992-01-28",
+    "racing_since": "2008-11-18",
+    "location": "Amesbury, MA",
+    "favorite_race": "Timberman 70.3",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-16T03:02:32.737Z",
+    "updated_at": "2016-11-18T01:43:43.410Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 2,
+  "fields": {
+    "first_name": "Craig",
+    "last_name": "Mitchell",
+    "dob": "1990-11-18",
+    "racing_since": "2010-11-18",
+    "location": "Worcester, MA",
+    "favorite_race": "Sharon",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-16T03:02:43.985Z",
+    "updated_at": "2016-11-18T01:43:24.115Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 3,
+  "fields": {
+    "first_name": "Jon",
+    "last_name": "Gay",
+    "dob": "1990-11-18",
+    "racing_since": "2010-11-18",
+    "location": "Newburyport, MA",
+    "favorite_race": "Im out of races",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-16T03:02:54.619Z",
+    "updated_at": "2016-11-18T01:43:07.005Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 4,
+  "fields": {
+    "first_name": "Spencer",
+    "last_name": "Coffin",
+    "dob": "1991-11-18",
+    "racing_since": "2011-11-18",
+    "location": "Boston, MA",
+    "favorite_race": "Swimming",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-17T01:29:16.327Z",
+    "updated_at": "2016-11-18T01:42:55.805Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 5,
+  "fields": {
+    "first_name": "Sean",
+    "last_name": "Dillon",
+    "dob": "1990-11-18",
+    "racing_since": "2010-11-18",
+    "location": "Not Albany, NY",
+    "favorite_race": "Mass State",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-17T01:29:26.476Z",
+    "updated_at": "2016-11-18T01:45:33.722Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 6,
+  "fields": {
+    "first_name": "Scott",
+    "last_name": "Woodnorth",
+    "dob": "1988-11-18",
+    "racing_since": "2009-11-18",
+    "location": "Who knows, ??",
+    "favorite_race": "Something in the Midwest",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-17T01:29:37.533Z",
+    "updated_at": "2016-11-18T01:42:33.188Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 7,
+  "fields": {
+    "first_name": "Greg",
+    "last_name": "McConnell",
+    "dob": "1990-11-18",
+    "racing_since": "2011-11-18",
+    "location": "Somewhere, MA",
+    "favorite_race": "Old Orchard Beach",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-17T01:29:49.930Z",
+    "updated_at": "2016-11-18T01:42:20.254Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.athlete",
+  "pk": 8,
+  "fields": {
+    "first_name": "Mark",
+    "last_name": "Vanacore",
+    "dob": "1990-11-18",
+    "racing_since": "2010-11-18",
+    "location": "Worcester, MA",
+    "favorite_race": "Sharon",
+    "image": null,
+    "status": "Active",
+    "created_at": "2016-11-17T01:30:03.394Z",
+    "updated_at": "2016-11-18T01:42:04.810Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 3,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 3,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 3,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 4,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 4,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 4,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add athlete",
+    "content_type": 7,
+    "codename": "add_athlete"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change athlete",
+    "content_type": 7,
+    "codename": "change_athlete"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete athlete",
+    "content_type": 7,
+    "codename": "delete_athlete"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add event",
+    "content_type": 8,
+    "codename": "add_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change event",
+    "content_type": 8,
+    "codename": "change_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete event",
+    "content_type": 8,
+    "codename": "delete_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add race",
+    "content_type": 9,
+    "codename": "add_race"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change race",
+    "content_type": 9,
+    "codename": "change_race"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete race",
+    "content_type": 9,
+    "codename": "delete_race"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$zKaDYHEN7oZz$NoxltZRunP/MuPVA+nvOyoMCWEd5tMMYSPWq2luXBLI=",
+    "last_login": "2016-11-18T14:36:43.416Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-11-16T03:01:26.937Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$nx1FAXf8G3yq$eHZuogYVt8URZlcT/imIolt8q+d6w8wrGJH7nAXPd7c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rhollinger",
+    "first_name": "Robert",
+    "last_name": "Hollinger",
+    "email": "rlh212@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-11-16T03:09:09Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "blog.event",
+  "pk": 1,
+  "fields": {
+    "title": "2015 Training Trip",
+    "content": "Stuff goes here",
+    "author": 2,
+    "date": "2015-06-10",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:05:09.767Z",
+    "updated_at": "2016-11-18T01:33:31.219Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.event",
+  "pk": 2,
+  "fields": {
+    "title": "2016 Winter Training",
+    "content": "Stuff...",
+    "author": 2,
+    "date": "2016-01-18",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:05:36.100Z",
+    "updated_at": "2016-11-18T01:33:38.772Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.event",
+  "pk": 3,
+  "fields": {
+    "title": "2016 Training Trip",
+    "content": "Stuff goes here",
+    "author": 1,
+    "date": "2016-06-09",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-17T02:04:56.745Z",
+    "updated_at": "2016-11-18T01:33:51.237Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.event",
+  "pk": 4,
+  "fields": {
+    "title": "2017 Planning Party",
+    "content": "--",
+    "author": 1,
+    "date": "2016-11-12",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-17T02:05:26.993Z",
+    "updated_at": "2016-11-18T01:33:59.315Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.race",
+  "pk": 1,
+  "fields": {
+    "title": "2015 Pumpkinman",
+    "content": "--",
+    "author": 2,
+    "athletes": "Rob, Craig,  Spencer,  Mark...",
+    "date": "2015-09-11",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:06:51.266Z",
+    "updated_at": "2016-11-17T12:59:21.026Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.race",
+  "pk": 2,
+  "fields": {
+    "title": "2016 Quassy",
+    "content": "--",
+    "author": 2,
+    "athletes": "Craig, Rob",
+    "date": "2016-06-06",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:07:48.466Z",
+    "updated_at": "2016-11-17T01:51:10.700Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.race",
+  "pk": 3,
+  "fields": {
+    "title": "2016 Mass State",
+    "content": "--",
+    "author": 2,
+    "athletes": "Everyone",
+    "date": "2016-07-10",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:08:01.373Z",
+    "updated_at": "2016-11-17T01:50:50.853Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "blog.race",
+  "pk": 4,
+  "fields": {
+    "title": "2016 Timberman",
+    "content": "--",
+    "author": 2,
+    "athletes": "Rob, Spencer",
+    "date": "2016-08-27",
+    "image": null,
+    "status": "Published",
+    "created_at": "2016-11-16T03:08:41.327Z",
+    "updated_at": "2016-11-17T01:50:28.152Z",
+    "deleted_at": null
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2016-11-16T03:02:32.813Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Athlete object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2016-11-16T03:02:43.987Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Athlete object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2016-11-16T03:02:54.620Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Athlete object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2016-11-16T03:05:09.786Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "16' Training Trip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2016-11-16T03:05:36.101Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "'15 Placid Training Trip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2016-11-16T03:05:50.910Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "2016 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2016-11-16T03:06:01.164Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2015 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2016-11-16T03:06:51.267Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Timberman 2016",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2016-11-16T03:07:28.583Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pumpkinman 2015",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\", \"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2016-11-16T03:07:48.468Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2016 Quassy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2016-11-16T03:08:01.374Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "2016 Mass State",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2016-11-16T03:08:11.655Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2015 Pumpkinman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2016-11-16T03:08:41.329Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2016-11-16T03:08:46.848Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2016-11-16T03:09:09.644Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "rhollinger",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2016-11-16T03:09:36.075Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "rhollinger",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"email\", \"is_staff\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2016-11-16T03:09:50.871Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2015 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2016-11-16T03:09:58.511Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "2015 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\", \"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2016-11-16T03:10:04.428Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2016 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2016-11-16T03:10:12.384Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2015 Pumpkinman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2016-11-16T03:10:16.984Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2016 Quassy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2016-11-16T03:10:21.537Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "2016 Mass State",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2016-11-16T03:10:26.185Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2016-11-17T01:28:57.636Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Jon Gay",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2016-11-17T01:29:16.361Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Spencer Coffin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2016-11-17T01:29:26.477Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Sean Dillon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2016-11-17T01:29:37.534Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Scott Woodnorth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2016-11-17T01:29:49.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Greg McConnell",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2016-11-17T01:30:03.432Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Mark Vanacore",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2016-11-17T01:30:18.370Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Scott Woodnorth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2016-11-17T01:50:28.155Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\", \"athletes\", \"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2016-11-17T01:50:50.857Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "2016 Mass State",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\", \"athletes\", \"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2016-11-17T01:51:10.703Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2016 Quassy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\", \"athletes\", \"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2016-11-17T01:51:32.206Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2015 Pumpkinman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\", \"athletes\", \"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2016-11-17T02:04:56.821Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "2016 Training Trip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2016-11-17T02:05:08.976Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2016 Winter Training",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2016-11-17T02:05:26.994Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "2016 Planning Party",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2016-11-17T02:05:36.430Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "2017 Planning Party",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2016-11-17T02:06:19.832Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "2017 Planning Party",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2016-11-17T12:59:21.080Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2015 Pumpkinman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2016-11-18T01:33:31.296Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "2015 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2016-11-18T01:33:38.774Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2016 Winter Training",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2016-11-18T01:33:51.239Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "2016 Training Trip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2016-11-18T01:33:59.317Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "2017 Planning Party",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2016-11-18T01:34:29.470Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Mark Vanacore",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2016-11-18T01:35:03.997Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Greg McConnell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2016-11-18T01:35:29.306Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Scott Woodnorth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2016-11-18T01:36:00.680Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Sean Dillon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2016-11-18T01:36:27.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Spencer Coffin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2016-11-18T01:37:02.255Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Jon Gay",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2016-11-18T01:37:13.330Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Craig Mitchell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2016-11-18T01:37:35.592Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Robert Hollinger",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\", \"favorite_race\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2016-11-18T01:42:04.850Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Mark Vanacore",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2016-11-18T01:42:20.256Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Greg McConnell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2016-11-18T01:42:33.193Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Scott Woodnorth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2016-11-18T01:42:44.670Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Sean Dillon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2016-11-18T01:42:55.814Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Spencer Coffin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2016-11-18T01:43:07.008Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Jon Gay",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2016-11-18T01:43:24.116Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Craig Mitchell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2016-11-18T01:43:43.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Robert Hollinger",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"dob\", \"racing_since\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2016-11-18T01:44:14.547Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Sean Dillon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2016-11-18T01:45:33.749Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Sean Dillon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"location\"]}}]"
+  }
+}
+]
