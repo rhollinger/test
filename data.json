@@ -567,14 +567,14 @@
   "pk": 1,
   "fields": {
     "title": "2015 Pumpkinman",
-    "content": "--",
+    "content": "Brief race report and have it go here.... Blaha... Blah... Blah....",
     "author": 2,
     "athletes": "Rob, Craig,  Spencer,  Mark...",
     "date": "2015-09-11",
     "image": null,
     "status": "Published",
     "created_at": "2016-11-16T03:06:51.266Z",
-    "updated_at": "2016-11-17T12:59:21.026Z",
+    "updated_at": "2016-11-18T22:42:38.075Z",
     "deleted_at": null
   }
 },
@@ -583,14 +583,14 @@
   "pk": 2,
   "fields": {
     "title": "2016 Quassy",
-    "content": "--",
+    "content": "Brief race report and have it go here.... Blaha... Blah... Blah....",
     "author": 2,
     "athletes": "Craig, Rob",
     "date": "2016-06-06",
     "image": null,
     "status": "Published",
     "created_at": "2016-11-16T03:07:48.466Z",
-    "updated_at": "2016-11-17T01:51:10.700Z",
+    "updated_at": "2016-11-18T22:42:29.489Z",
     "deleted_at": null
   }
 },
@@ -599,14 +599,14 @@
   "pk": 3,
   "fields": {
     "title": "2016 Mass State",
-    "content": "--",
+    "content": "Brief race report and have it go here.... Blaha... Blah... Blah....",
     "author": 2,
     "athletes": "Everyone",
     "date": "2016-07-10",
     "image": null,
     "status": "Published",
     "created_at": "2016-11-16T03:08:01.373Z",
-    "updated_at": "2016-11-17T01:50:50.853Z",
+    "updated_at": "2016-11-18T22:42:22.646Z",
     "deleted_at": null
   }
 },
@@ -615,14 +615,14 @@
   "pk": 4,
   "fields": {
     "title": "2016 Timberman",
-    "content": "--",
+    "content": "Brief race report and have it go here.... Blaha... Blah... Blah....",
     "author": 2,
     "athletes": "Rob, Spencer",
     "date": "2016-08-27",
     "image": null,
     "status": "Published",
     "created_at": "2016-11-16T03:08:41.327Z",
-    "updated_at": "2016-11-17T01:50:28.152Z",
+    "updated_at": "2016-11-18T22:42:16.821Z",
     "deleted_at": null
   }
 },
@@ -1430,6 +1430,71 @@
     "object_repr": "Sean Dillon",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"location\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2016-11-18T22:36:18.294Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2016-11-18T22:42:16.867Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "2016 Timberman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2016-11-18T22:42:22.648Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "2016 Mass State",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2016-11-18T22:42:29.491Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2016 Quassy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2016-11-18T22:42:38.077Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "2015 Pumpkinman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
   }
 }
 ]
