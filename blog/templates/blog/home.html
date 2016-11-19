@@ -78,7 +78,7 @@
 							<b>Age:</b> {{athlete.age}}
 		                </div>
 		                <div class="social-person">
-							<b>Racing Since:</b> {{athlete.racing_since}}
+							<b>Racing Since:</b> {{athlete.racing_since | date:'Y'}}
 		                </div>
 		                <div class="social-person">
 							<b>Favorite Race:</b> {{athlete.favorite_race}}
@@ -109,10 +109,13 @@
 	                    	<a class="share" href="#" > <i class="fa fa-share-alt"></i> share</a>
 	                    	<a class="comment" href="#" > <i class="fa fa-comment"></i> comment(s)</a>
 	                    </div>
+						<div class="blog--content grid-d-12 grid-m-12">
+							<span>{{race.content}}</span>
+						</div>
 	                    <div class="clearfix"></div>
 	                </div>
 	                <div class="blog--img grid-d-5">
-						<img src="{% static 'blog/image/results/pumpkinman-15.png'%}" class="responsive"/>
+						<img src='/static/blog/image/results/{{race.id}}.png' class="responsive"/>
 	                </div>
 	            </article>
 			{% endfor %}
@@ -128,7 +131,7 @@
 	                    <div class="over">
 	                        <button class="show-p">{{event.title}}</button>
 	                    </div>
-		                <img src="{% static 'blog/image/events/spring-16.png'%}" class="responsive"/>
+						<img src='/static/blog/image/events/{{event.id}}.png' class="responsive"/>
 	                </div>
 				{% endfor %}
                 <div class="show-all-project"><button class="btn workbtn">all events</button></div>
