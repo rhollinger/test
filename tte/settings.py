@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    'whispering-earth-48343.herokuapp.com',
+    'tritechelite.herokuapp.com',
     'tritechelite.com',
     'www.tritechelite.com',
 ]
