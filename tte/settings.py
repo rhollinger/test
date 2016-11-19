@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
+    'staging-tte.herokuapp.com',
     'tritechelite.herokuapp.com',
     'tritechelite.com',
     'www.tritechelite.com',
