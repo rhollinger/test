@@ -1,7 +1,6 @@
 [
 {
   "model": "contenttypes.contenttype",
-  "pk": 1,
   "fields": {
     "app_label": "admin",
     "model": "logentry"
@@ -9,7 +8,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 2,
   "fields": {
     "app_label": "auth",
     "model": "permission"
@@ -17,7 +15,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 3,
   "fields": {
     "app_label": "auth",
     "model": "user"
@@ -25,7 +22,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 4,
   "fields": {
     "app_label": "auth",
     "model": "group"
@@ -33,7 +29,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 5,
   "fields": {
     "app_label": "contenttypes",
     "model": "contenttype"
@@ -41,7 +36,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 6,
   "fields": {
     "app_label": "sessions",
     "model": "session"
@@ -49,7 +43,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 7,
   "fields": {
     "app_label": "blog",
     "model": "athlete"
@@ -57,7 +50,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 8,
   "fields": {
     "app_label": "blog",
     "model": "event"
@@ -65,7 +57,6 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 9,
   "fields": {
     "app_label": "blog",
     "model": "race"
@@ -225,7 +216,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 1,
   "fields": {
     "name": "Can add log entry",
     "content_type": 1,
@@ -234,7 +224,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 2,
   "fields": {
     "name": "Can change log entry",
     "content_type": 1,
@@ -243,7 +232,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 3,
   "fields": {
     "name": "Can delete log entry",
     "content_type": 1,
@@ -252,7 +240,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 4,
   "fields": {
     "name": "Can add permission",
     "content_type": 2,
@@ -261,7 +248,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 5,
   "fields": {
     "name": "Can change permission",
     "content_type": 2,
@@ -270,7 +256,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 6,
   "fields": {
     "name": "Can delete permission",
     "content_type": 2,
@@ -279,7 +264,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 7,
   "fields": {
     "name": "Can add user",
     "content_type": 3,
@@ -288,7 +272,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 8,
   "fields": {
     "name": "Can change user",
     "content_type": 3,
@@ -297,7 +280,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 9,
   "fields": {
     "name": "Can delete user",
     "content_type": 3,
@@ -306,7 +288,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 10,
   "fields": {
     "name": "Can add group",
     "content_type": 4,
@@ -315,7 +296,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 11,
   "fields": {
     "name": "Can change group",
     "content_type": 4,
@@ -324,7 +304,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 12,
   "fields": {
     "name": "Can delete group",
     "content_type": 4,
@@ -333,7 +312,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 13,
   "fields": {
     "name": "Can add content type",
     "content_type": 5,
@@ -342,7 +320,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 14,
   "fields": {
     "name": "Can change content type",
     "content_type": 5,
@@ -351,7 +328,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 15,
   "fields": {
     "name": "Can delete content type",
     "content_type": 5,
@@ -360,7 +336,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 16,
   "fields": {
     "name": "Can add session",
     "content_type": 6,
@@ -369,7 +344,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 17,
   "fields": {
     "name": "Can change session",
     "content_type": 6,
@@ -378,7 +352,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 18,
   "fields": {
     "name": "Can delete session",
     "content_type": 6,
@@ -387,7 +360,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 19,
   "fields": {
     "name": "Can add athlete",
     "content_type": 7,
@@ -396,7 +368,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 20,
   "fields": {
     "name": "Can change athlete",
     "content_type": 7,
@@ -405,7 +376,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 21,
   "fields": {
     "name": "Can delete athlete",
     "content_type": 7,
@@ -414,7 +384,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 22,
   "fields": {
     "name": "Can add event",
     "content_type": 8,
@@ -423,7 +392,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 23,
   "fields": {
     "name": "Can change event",
     "content_type": 8,
@@ -432,7 +400,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 24,
   "fields": {
     "name": "Can delete event",
     "content_type": 8,
@@ -441,7 +408,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 25,
   "fields": {
     "name": "Can add race",
     "content_type": 9,
@@ -450,7 +416,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 26,
   "fields": {
     "name": "Can change race",
     "content_type": 9,
@@ -459,7 +424,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 27,
   "fields": {
     "name": "Can delete race",
     "content_type": 9,
@@ -468,7 +432,6 @@
 },
 {
   "model": "auth.user",
-  "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$30000$zKaDYHEN7oZz$NoxltZRunP/MuPVA+nvOyoMCWEd5tMMYSPWq2luXBLI=",
     "last_login": "2016-11-18T14:36:43.416Z",
@@ -486,7 +449,6 @@
 },
 {
   "model": "auth.user",
-  "pk": 2,
   "fields": {
     "password": "pbkdf2_sha256$30000$nx1FAXf8G3yq$eHZuogYVt8URZlcT/imIolt8q+d6w8wrGJH7nAXPd7c=",
     "last_login": null,
